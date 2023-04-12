@@ -47,6 +47,6 @@ El resultado debe ser mostrado en la pantalla.
 
 
 
-## Solución
+## Solucion
 - https://pabarcag.github.io/encriptador-oracle-one-grupo-5/
 
