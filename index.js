@@ -2,7 +2,11 @@ const $input = document.getElementById('input');
 const $encrypcText = document.createElement('p');
 const $outPutTexts = document.querySelector('.card__texts');
 const $munecoImage = document.querySelector('.card__muneco');
-const regEx = /^[a-z]+$/gm;
+const regEx = /^[a-zñ\s]+$/g;
+
+const cadena = 'como estas';
+
+
 // La letra "a" es convertida para "ai"
 // La letra "e" es convertida para "enter"
 // La letra "i" es convertida para "imes"
