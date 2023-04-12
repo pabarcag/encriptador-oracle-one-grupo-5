@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador challenge - Patricio Abarca</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./logo.svg" alt="" class="header__logo">
+    </header>
+    <main class="card">
+        <form class="card__form">
+            <div class="card__input">
+                <label for="input">
+                    <input type="text" id="input" placeholder="Ingrese el texto aqui">
+                </label>
+                <div class="card__info">
+                    <div class="card__alerts">
+                        <img src="./exclamacion.svg" alt="Exclamation" class="card__exclamation">
+                        <p class="card__alert">Solo debe tener minusculas y sin acentos</p>
+                    </div>
+
+                    <div class="card__buttons">
+                        <input class="card__button card__button--left" type="button" value="Encriptar!"></button>
+                        <input class="card__button card__button--right" type="button" value="Desencriptar!"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card__output">
+                <div class="card__muneco card__muneco--hidden">
+                    <img src="./muneco.svg" alt="Image" class="card__muneco-img">
+                </div>
+                <div class="card__texts">
+                    <h1 class="card__title">Ningun mensaje fue encontrado</h1>
+                    <p class="card__subtitle">Ingresa el texto que desea encriptar o desencriptar</p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
